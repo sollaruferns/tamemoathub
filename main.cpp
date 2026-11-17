@@ -26,20 +26,15 @@ void gcd_triple() {
     (void)g;
 }
 
-void collect_triples() {
-    std::vector<int> values;
-    for (int i = 1; i <= 5; ++i) values.push_back(i * 3);
-    int total = 0;
-    for (std::size_t i = 0; i < values.size(); ++i) total += values[i];
-    (void)total;
-}
-
 extern "C" int serene_vale();
+extern void radiant_meadow();
+extern void still_summit();
 
 int main() {
     vector_reverse();
     mod_cycle();
     gcd_triple();
-    collect_triples();
+    radiant_meadow();
+    still_summit();
     return serene_vale();
 }

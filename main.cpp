@@ -26,14 +26,6 @@ void gcd_triple() {
     (void)g;
 }
 
-void collect_triples() {
-    std::vector<int> values;
-    for (int i = 1; i <= 5; ++i) values.push_back(i * 3);
-    int total = 0;
-    for (std::size_t i = 0; i < values.size(); ++i) total += values[i];
-    (void)total;
-}
-
 void vector_max() {
     std::vector<int> values;
     values.push_back(11);
@@ -47,16 +39,15 @@ void vector_max() {
 }
 
 extern "C" int serene_vale();
-extern "C" void noble_prism();
-extern "C" void serene_compass();
+extern "C" void misty_crescent();
+extern "C" void swift_maple();
 
 int main() {
     vector_reverse();
     mod_cycle();
     gcd_triple();
-    collect_triples();
     vector_max();
-    noble_prism();
-    serene_compass();
+    misty_crescent();
+    swift_maple();
     return serene_vale();
 }
